@@ -1,0 +1,15 @@
+Wrote new keypair to lp-locker-keypair.json
+===============================================================================
+pubkey: 5AoLc987PBjErq5ZkyhHmkyWgaS3iue5UVtzXy3j2AHg
+===============================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+nut pretty day borrow material rifle shadow multiply under double winner hollow
+===============================================================================
+
+
+Wrote new keypair to /home/gitpod/.config/solana/id.json
+=================================================================================
+pubkey: 2zfTyZFmRQY1FiCDzsc2TTBYRGu1oqUXARRYzCmpVYxt
+=================================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+alone road ignore victory october turn frost jealous balcony follow element tooth
