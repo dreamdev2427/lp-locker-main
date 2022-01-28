@@ -1,0 +1,18 @@
+[programs.localnet]
+locker = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+# country-list = "DKRoqjR3xeYnp9WtiTgjyFDRwo2L1SBQcYsp6hdUU5Tw"
+
+[programs.devnet]
+locker = "GRNoyXVJgx2hbej9ZsQow6G4uJUscyLfk1a1Q9qe73ek"
+# country-list = "DKRoqjR3xeYnp9WtiTgjyFDRwo2L1SBQcYsp6hdUU5Tw"
+# lp-locker = "7qYAcrz8KL19GP8seJG7DfkSapCF6FzCS3kBe82ENw5W"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

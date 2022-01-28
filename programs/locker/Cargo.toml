@@ -1,0 +1,24 @@
+[package]
+description = "Created with Anchor"
+edition = "2018"
+name = "locker"
+version = "0.1.0"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "locker"
+
+[features]
+cpi = ["no-entrypoint"]
+default = []
+no-entrypoint = []
+no-idl = []
+
+[dependencies]
+anchor-lang = "0.18"
+anchor-spl = "0.18"
+
+az = "1.1"
+fixed = "=1.9"
+
+country-list = {path = "../country-list", features = ["no-entrypoint"]}
